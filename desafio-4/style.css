@@ -1,0 +1,55 @@
+h2 {
+    font-family: Arial;
+    font-size: 35px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+th:last-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.cabecalho-moda > th,
+.cabecalho-casa > th,
+.itens-moda > td,
+.itens-casa > td {
+    border: inset 1.9px black;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.cabecalho-moda {
+    background-color: #bb86fc;
+    font-family: Arial;
+    font-size: 23px;
+    color: white;
+}
+
+.cabecalho-casa {
+    background-color: #00c4b4;
+    font-family: Arial;
+    font-size: 23px;
+    color: white;
+}
+
+.itens-moda {
+    background-color: #424250;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.itens-casa {
+    background-color: #424250;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
